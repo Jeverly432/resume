@@ -69,11 +69,7 @@ const Info =() =>{
                         <span className="nodejs-class"> express</span>. <br/>
                         And I have an interest in linux. <br/>
                         Maybe it will be a bonus,<br/>
-                        but I know <span className="figma-class">Figma</span>,
-                        <span className="figma-class"> Ps</span>,  
-                        <span className="figma-class"> Ae</span>, 
-                        <span className="figma-class"> Pr</span>,  
-                        <span className="figma-class"> Ai</span>.
+                        but I know <span className="figma-class">Figma</span>.
                     </p>
                 </div>
             </div>
@@ -137,7 +133,14 @@ const Info =() =>{
                             React
                         </p>
                     </div>
-                    
+                    <div className="container-redux">
+                        <div>
+                            <img className="redux-img" src={Redux} alt="CssImg"/>
+                        </div>
+                        <p>
+                            REDUX
+                        </p>
+                    </div>  
                 </div>
             </div>
             <div className="border-opacity-three">

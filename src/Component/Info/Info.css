@@ -48,8 +48,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 
 html, body {
-overflow-x: hidden;
-}
+    overflow-x: hidden;
+  }
   body {
     position: relative
   }
@@ -225,7 +225,7 @@ overflow-x: hidden;
 .container-javascript-react-redux{
     display: flex;
     align-items:center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 20vh;
     margin-right: 110px;
     margin-left: 100px;

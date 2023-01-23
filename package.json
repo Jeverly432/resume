@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Jeverly432.githum.io/res",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -18,6 +19,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm rum build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
